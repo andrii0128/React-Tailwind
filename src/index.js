@@ -33,12 +33,15 @@ import Modal3 from './components/dialog/Modal3';
 import Registration1 from './components/registration/Registration1';
 import Registration2 from './components/registration/Registration2';
 
+import Table1 from './components/table/Table1';
+import Table2 from './components/table/Table2';
+
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-      <Registration2 />
+      <Table2 />
   </React.StrictMode>
 );
 
