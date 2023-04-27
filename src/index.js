@@ -36,12 +36,16 @@ import Registration2 from './components/registration/Registration2';
 import Table1 from './components/table/Table1';
 import Table2 from './components/table/Table2';
 
+import Gallery1 from './components/responsive_gallery/Gallery1';
+import Gallery2 from './components/responsive_gallery/Gallery2';
+import Gallery3 from './components/responsive_gallery/Gallery3';
+
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-      <Table2 />
+      <Gallery2 />
   </React.StrictMode>
 );
 
