@@ -2,12 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+
+import Login1 from './components/auth/Login1';
+import Login2 from './components/auth/Login2';
+import Login3 from './components/auth/Login3';
+
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Login3 />
   </React.StrictMode>
 );
 
