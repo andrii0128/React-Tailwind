@@ -24,11 +24,15 @@ import Sidebar2 from './components/sidebar/Sidebar2';
 import Sidebar3 from './components/sidebar/Sidebar3';
 import Sidebar4 from './components/sidebar/Sidebar4';
 
+import Navbar1 from './components/navbar/Navbar1';
+import Navbar2 from './components/navbar/Navbar2';
+
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Navbar2 />
     <Sidebar4 />
   </React.StrictMode>
 );
