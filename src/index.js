@@ -27,13 +27,15 @@ import Sidebar4 from './components/sidebar/Sidebar4';
 import Navbar1 from './components/navbar/Navbar1';
 import Navbar2 from './components/navbar/Navbar2';
 
+import Modal1 from './components/dialog/Modal1';
+import Modal3 from './components/dialog/Modal3';
+
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Navbar2 />
-    <Sidebar4 />
+      <Modal3 />
   </React.StrictMode>
 );
 

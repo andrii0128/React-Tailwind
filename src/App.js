@@ -3,23 +3,29 @@ import Search1 from "./components/search/Search1";
 import Search2 from "./components/search/Search2";
 import Search3 from "./components/search/Search3";
 
-function App() {
-  return (
-    <div className="flex items-center justify-center h-screen">
-      <div className="flex gap-x-4">
-        <Button>Button</Button>
-        <Button className="bg-red-600">Button</Button>
-        <Button className="bg-green-600">Button</Button>
-        <Button className="bg-purple-600">Button</Button>
-        <Button className="bg-cyan-600">Button</Button>
-      </div>
-      <div className="flex gap-x-4">
-        <Search1 />
-        <Search2 />
-        <Search3 />
-      </div>
-    </div>
-  );
-}
+import React, { useState } from "react";
 
-export default App;
+import Modal2 from "./components/dialog/Modal2";
+
+export default function App() {
+    const [showModal, setShowModal] = useState(false);
+
+    return (
+        <div className="flex flex-col items-center justify-center h-60">
+            <h1 className="text-2xl font-bold">
+                Click on the button to open the modal.
+            </h1>
+            <button
+                className="px-4 py-2 text-purple-100 bg-purple-600 rounded-md"
+                type="button"
+                onClick={() => {
+                    setShowModal(true);
+                }}
+            >
+                Open Modal
+            </button>
+
+            {showModal && <Modal2 setOpenModal={setShowModal} />}
+        </div>
+    );
+}
