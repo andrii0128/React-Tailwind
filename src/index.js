@@ -16,12 +16,15 @@ import Tab2 from './components/tabs/Tab2';
 import Tab3 from './components/tabs/Tab3';
 import Tab4 from './components/tabs/Tab4';
 
+import Toggle1 from './components/toggle/Toggle1';
+import Toggle2 from './components/toggle/Toggle2';
+
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Tab4 />
+    <Toggle2 />
   </React.StrictMode>
 );
 
