@@ -11,12 +11,17 @@ import Accordion1 from './components/accordion/Accordion1';
 import Accordion2 from './components/accordion/Accordion2';
 import Accordion3 from './components/accordion/Accordion3';
 
+import Tab1 from './components/tabs/Tab1';
+import Tab2 from './components/tabs/Tab2';
+import Tab3 from './components/tabs/Tab3';
+import Tab4 from './components/tabs/Tab4';
+
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Accordion3 />
+    <Tab4 />
   </React.StrictMode>
 );
 
