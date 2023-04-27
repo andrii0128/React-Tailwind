@@ -19,12 +19,17 @@ import Tab4 from './components/tabs/Tab4';
 import Toggle1 from './components/toggle/Toggle1';
 import Toggle2 from './components/toggle/Toggle2';
 
+import Sidebar1 from './components/sidebar/Sidebar1';
+import Sidebar2 from './components/sidebar/Sidebar2';
+import Sidebar3 from './components/sidebar/Sidebar3';
+import Sidebar4 from './components/sidebar/Sidebar4';
+
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Sidebar4 />
   </React.StrictMode>
 );
 
