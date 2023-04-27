@@ -1,12 +1,15 @@
+import Button from "./components/Button";
+
 function App() {
   return (
-    <div className="container mx-auto bg-gray-200 rounded-xl shadow border p-8 m-10">
-      <p className="text-3xl text-gray-700 font-bold mb-5">
-        Welcome!
-      </p>
-      <p className="text-gray-500 text-lg">
-        React and Tailwind CSS in action
-      </p>
+    <div className="flex items-center justify-center h-screen">
+      <div className="flex gap-x-4">
+        <Button>Button</Button>
+        <Button className="bg-red-600">Button</Button>
+        <Button className="bg-green-600">Button</Button>
+        <Button className="bg-purple-600">Button</Button>
+        <Button className="bg-cyan-600">Button</Button>
+      </div>
     </div>
   );
 }
