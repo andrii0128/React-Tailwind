@@ -7,12 +7,16 @@ import Login1 from './components/auth/Login1';
 import Login2 from './components/auth/Login2';
 import Login3 from './components/auth/Login3';
 
+import Accordion1 from './components/accordion/Accordion1';
+import Accordion2 from './components/accordion/Accordion2';
+import Accordion3 from './components/accordion/Accordion3';
+
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Login3 />
+    <Accordion3 />
   </React.StrictMode>
 );
 
